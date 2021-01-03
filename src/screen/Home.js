@@ -32,6 +32,7 @@ import {podcastsData} from '../data/podcastsData';
 const Stack = createStackNavigator();
 
 const Home = ({navigation}) => {
+  console.log(podcastsData);
   return (
     <>
       <ScrollView>

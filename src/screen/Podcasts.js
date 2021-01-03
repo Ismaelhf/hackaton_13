@@ -3,7 +3,7 @@ import {StyleSheet, View, Image, Text, ScrollView} from 'react-native';
 
 const Podcasts = ({route}) => {
   const item = route.params.item.item;
-  console.warn(item.title);
+  console.log(item);
   return (
     <View style={styles.item}>
       <View style={styles.contentImg}>
